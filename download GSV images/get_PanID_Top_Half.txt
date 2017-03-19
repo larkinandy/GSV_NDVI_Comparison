@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Directly accessing Street View data</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map" style="width: 45%; height: 100%;float:left"></div>
+    <div id="pano" style="width: 45%; height: 0%;float:left"></div>
+    <script>
+      /*
+       * Click the map to set a new location for the Street View camera.
+       */
+
+      var map;
+      var panorama;
+
+      function initMap() {

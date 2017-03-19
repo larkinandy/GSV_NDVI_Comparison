@@ -1,0 +1,24 @@
+		  for (i = 0; i < 150; i++) {
+    		
+
+        var coords = {lat: latitude[i], lng: longitude[i]};
+        var sv = new google.maps.StreetViewService();
+        panorama = new google.maps.StreetViewPanorama(document.getElementById('pano'));
+   
+     
+     
+	  sv.getPanoramaByLocation(coords, 50, function(data) {
+	if(data != null) {
+    console.log(data.location.pano, ",", data.imageDate,",",data.location.latLng.toString());
+	}
+});
+	  } }
+
+    
+	  
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key='insertkeyhere'&callback=initMap">
+    </script>
+  </body>
+</html>
