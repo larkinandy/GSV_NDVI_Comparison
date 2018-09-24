@@ -11,4 +11,7 @@ Scripts to download GSV images from Google Street View API
 These scripts are deisgned to populate a google map with locations, request Google Street View image ids from the populated locations, and download Google Street View imagery given the corresponding image ids
 
 **Processing Scripts** <br>
-[**create_GSV_webscript.py**](create_GSV_webscript.py) - combine the text files get_PanID_Bottom_Half.txt and	get_PanID_Top_Half.txt into a single web browsing html page
+[**create_GSV_webscript.py**](create_GSV_webscript.py) - combine the text files get_PanID_Bottom_Half.txt and	get_PanID_Top_Half.txt into a single web browsing html page <br>
+[**downloadGSV.py**](downloadGSV.py) - download street view images using the Google Earth Engine API <br>
+[**get_PanID_Bottom_Half.txt**](get_PanID_Bottom_Half.txt) - bottom half of html file used to get image ids <br>
+[**get_PanID_Top_Half.txt**](get_PanID_Top_Half.txt) - top half of html file used to get image ids
