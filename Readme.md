@@ -1,5 +1,5 @@
 # GSV_NDVI_Comparison #
-![Alt Text](https://github.com/larkinandy/GSV_NDVI_Comparison/blob/master/GreenCompare.gif)
+![](./GreenComparev2.gif)
 Readme file for the Google Street View - NDVI comparison project
 
 **Author:** [Andrew Larkin](https://www.linkedin.com/in/andrew-larkin-525ba3b5/) <br>
