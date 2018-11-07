@@ -13,7 +13,7 @@ The Python and C++ files in this folder were used to download Google Street View
 **Repository Folders**
 - [**download GSV Images**](https://github.com/larkinandy/GSV_NDVI_Comparison/tree/master/download%20GSV%20images) - for downloading GSV images from the Google Street View API
 - [**download NDVI**](https://github.com/larkinandy/GSV_NDVI_Comparison/tree/master/download%20NDVI) - downloading NDVI estimates at street view locations from the Google Earth Engine
-- [**prcoess GSV images**](https://github.com/larkinandy/GSV_NDVI_Comparison/tree/master/process%20GSV%20images) - derive estimates of greenspace from downloaded street view imagery
+- [**process GSV images**](https://github.com/larkinandy/GSV_NDVI_Comparison/tree/master/process%20GSV%20images) - derive estimates of greenspace from downloaded street view imagery
 
 Scripts are protected under the Creative Commons Liscense.  You are free to use, modify, and publish the scripts,
 but need to cite/reference the original source of the data.
